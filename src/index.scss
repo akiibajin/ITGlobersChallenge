@@ -1,0 +1,6 @@
+@use './syles/variables.scss';
+
+body{
+  background-color:variables.$base-background-color;
+  margin: 0%;
+}

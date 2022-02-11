@@ -1,0 +1,18 @@
+.buttons-container{
+    margin-top: 30vh;
+    display: flex;    
+    justify-content: center;
+}
+
+.start-button{
+    height: 20vh;
+    width: 20vw;
+    font-size: larger;
+}
+
+@media only screen and(max-width:925px){
+    .start-button{
+        height: 100px;
+        width: 140px;
+    }
+}

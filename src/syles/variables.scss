@@ -1,0 +1,28 @@
+$base-background-color: rgb(255, 255, 255);
+
+
+%flex-distribution-row-evenly{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+%flex-distribution-row-around{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+%flex-distribution-column-around{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    gap:3vh;
+}
+
+%text-decoration-underline{
+    background-image: linear-gradient(pink,violet);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}

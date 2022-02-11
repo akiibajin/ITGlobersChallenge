@@ -1,0 +1,28 @@
+@import './variables.scss';
+.content-form{
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.travel-form{
+    display: grid;
+    grid-template-columns: 60vw;
+    grid-template-rows: 10vh 10vh 10vh 10vh 10vh;
+    gap:1vh;
+}
+.section-buttons{
+    @extend %flex-distribution-row-around;
+}
+.submit-button{
+    font-weight: bolder;
+    font-size: larger;
+    align-self: flex-start;
+    justify-self: flex-end;
+}
+.back-button{
+    grid-row:5;
+    justify-self: flex-start;
+    align-self: flex-start;
+}
